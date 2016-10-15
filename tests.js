@@ -28,9 +28,17 @@ describe("input the number", function() {
     assert(
       lib.sumofprimes((17.4)==false)
     );
-    it("should return false for if less than 2", function() {
+    it("should return false if number less than 2", function() {
     assert(
       lib.sumofprimes((1)==false)
     );
 });
+it("should return false if a string is supplied", function() {
+    assert(
+      lib.sumofprimes(("abd")==false)
+    );
+    it("should return false if zero is supplied ", function() {
+    assert(
+      lib.sumofprimes((0)==false)
+    );
 });
