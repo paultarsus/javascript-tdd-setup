@@ -1,7 +1,7 @@
 {
   "name": "javascript-tdd-setup",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bootcamp Javascript TDD setup",
   "main": "library.js",
   "dependencies": {
     "chai": "^3.5.0"
@@ -13,6 +13,14 @@
     "test": "mocha"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "paul",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paultarsus/javascript-tdd-setup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paultarsus/javascript-tdd-setup/issues"
+  },
+  "homepage": "https://github.com/paultarsus/javascript-tdd-setup#readme"
 }

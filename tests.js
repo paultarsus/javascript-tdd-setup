@@ -41,4 +41,4 @@ it("should return false if a string is supplied", function() {
     assert(
       lib.sumofprimes((0)==false)
     );
-});
+})
