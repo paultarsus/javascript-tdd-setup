@@ -3,7 +3,7 @@
 var chai = require('chai');
 var assert = chai.assert;
 
-var lib = require('./lib/SumOfPrimes');
+var lib = require('./lib/sumofprimes');
 
 
 describe("Tests", function() {
