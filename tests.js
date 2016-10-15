@@ -15,6 +15,22 @@ describe("input the number", function() {
     assert(
       lib.sumofprimes(("$%")==false)
     );
-  });
-   });
+  });   
+    it("should return false for empty string", function() {
+    assert(
+      lib.sumofprimes((" ")==false)
+    );
+    it("should return false for negative numbers", function() {
+    assert(
+      lib.sumofprimes((-12)==false)
+    );
+    it("should return false for decimal numbers", function() {
+    assert(
+      lib.sumofprimes((17.4)==false)
+    );
+    it("should return false for if less than 2", function() {
+    assert(
+      lib.sumofprimes((1)==false)
+    );
+});
 });
